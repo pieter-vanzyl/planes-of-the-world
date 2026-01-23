@@ -32,7 +32,7 @@ function App() {
 						<img src={reactLogo} className="logo react" height="200" width="200" alt="React logo" />
 					</a>
 					<a href="https://tailwindcss.com/" target="_blank">
-						<img src={honoLogo} className="logo tailwindcss" height="200" width="200" alt="TailwindCSS logo" />
+						<img src={honoLogo} className="logo tailwindcss" height="200" width="100" alt="TailwindCSS logo" />
 					</a>
 					<a href="https://workers.cloudflare.com/" target="_blank">
 						<img src={cloudflareLogo} className="logo cloudflare" height="200" width="200" alt="Cloudflare logo"/>
