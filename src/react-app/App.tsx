@@ -26,7 +26,7 @@ function App() {
 			<div className="items-center justify-center rounded-md p-2 bg-gray-600 shadow-lg">
 				<div className="inline-flex">
 					<a href="https://vite.dev" target="_blank">
-						<img src={viteLogo} className="logo" alt="Vite logo" />
+						<img src={viteLogo} className="logo" height="200" width="200" alt="Vite logo" />
 					</a>
 					<a href="https://react.dev" target="_blank">
 						<img src={reactLogo} className="logo react" alt="React logo" />
