@@ -29,13 +29,13 @@ function App() {
 						<img src={viteLogo} className="logo" height="200" width="200" alt="Vite logo" />
 					</a>
 					<a href="https://react.dev" target="_blank">
-						<img src={reactLogo} className="logo react" alt="React logo" />
+						<img src={reactLogo} className="logo react" height="200" width="200" alt="React logo" />
 					</a>
 					<a href="https://tailwindcss.com/" target="_blank">
-						<img src={honoLogo} className="logo tailwindcss" alt="TailwindCSS logo" />
+						<img src={honoLogo} className="logo tailwindcss" height="200" width="200" alt="TailwindCSS logo" />
 					</a>
 					<a href="https://workers.cloudflare.com/" target="_blank">
-						<img src={cloudflareLogo} className="logo cloudflare" alt="Cloudflare logo"/>
+						<img src={cloudflareLogo} className="logo cloudflare" height="200" width="200" alt="Cloudflare logo"/>
 					</a>
 				</div>
 				<h2 className="text-stone-50">Vite + React + TailwindCSS + Cloudflare</h2>
