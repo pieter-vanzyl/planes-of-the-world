@@ -4,7 +4,8 @@
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
-import honoLogo from "./assets/hono.svg";
+import honoLogo from "./assets/tailwind.jfif";
+import mainimage from "./assets/Planes.png";
 import "./App.css";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 			<div className="pattern"/>
 			<div className="wrapper">
 				<header>
-					<img src="./assets/file.svg" alt="Plane Banner"/>
+					<img src={mainimage} className="inline-flex" alt="Plane Banner"/>
 					<h1 className="text-4xl font-bold text-stone-50">Find <span className="text-blue-800">Planes</span> you like</h1>
 				</header>
 
@@ -30,14 +31,14 @@ function App() {
 					<a href="https://react.dev" target="_blank">
 						<img src={reactLogo} className="logo react" alt="React logo" />
 					</a>
-					<a href="https://hono.dev/" target="_blank">
-						<img src={honoLogo} className="logo cloudflare" alt="Hono logo" />
+					<a href="https://tailwindcss.com/" target="_blank">
+						<img src={honoLogo} className="logo tailwindcss" alt="TailwindCSS logo" />
 					</a>
 					<a href="https://workers.cloudflare.com/" target="_blank">
 						<img src={cloudflareLogo} className="logo cloudflare" alt="Cloudflare logo"/>
 					</a>
 				</div>
-				<h2 className="text-stone-50">Vite + React + Hono + Cloudflare</h2>
+				<h2 className="text-stone-50">Vite + React + TailwindCSS + Cloudflare</h2>
 			</div>
 		</main>
 	);
