@@ -24,7 +24,6 @@ function App() {
 				<Search searchTerm={searchTerm} setsearchTerm={setsearchTerm } />
 			</div>
 
-
 			<div className="items-center justify-center rounded-md p-2 bg-gray-600 shadow-lg">
 				<div className="inline-flex">
 					<a href="https://vite.dev" target="_blank">
