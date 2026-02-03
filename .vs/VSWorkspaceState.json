@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\react-app",
-    "\\src\\react-app\\assets",
+    "\\src\\react-app\\components",
     "\\src\\worker"
   ],
-  "SelectedNode": "\\src\\react-app\\assets\\Planes.png",
+  "SelectedNode": "\\src\\react-app\\components\\search.tsx",
   "PreviewInSolutionExplorer": false
 }

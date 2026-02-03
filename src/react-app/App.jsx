@@ -1,4 +1,3 @@
-// src/App.tsx
 
 //import { useState } from "react";
 import reactLogo from "./assets/react.svg";
@@ -6,9 +5,12 @@ import viteLogo from "/vite.svg";
 import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
 import honoLogo from "./assets/tailwind.jfif";
 import mainimage from "./assets/Planes.png";
+import Search from "./components/Search.jsx";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+	const [searchTerm, setsearchTerm] = useState('');
 
 	return (
 		<main className="bg-[url(./assets/BackGround.svg)] bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5">
@@ -19,7 +21,7 @@ function App() {
 					<h1 className="text-4xl font-bold text-stone-50">Find <span className="text-blue-800">Planes</span> you like</h1>
 				</header>
 
-				<p>Search</p>
+				<Search searchTerm={searchTerm} setsearchTerm={setsearchTerm } />
 			</div>
 
 
